@@ -1,0 +1,23 @@
+[package]
+name = "tetrix"
+version = "0.1.0"
+edition = "2021"
+description = "Asciiverse spiritual successor to TetriNET: multiplayer Tetris with special blocks, Rust + Ratatui"
+
+[[bin]]
+name = "tetrix"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.29"
+rand = { version = "0.8", features = ["small_rng"] }
+log = "0.4"
+env_logger = "0.11"
+iroh = "1.0.2"
+tokio = { version = "1.52.3", features = ["rt-multi-thread", "macros", "time", "sync", "io-util"] }
+socket2 = { version = "0.6", features = ["all"] }
+serde = { version = "1", features = ["derive"] }
+postcard = { version = "1", features = ["alloc"] }
+
+[profile.release]
+debug = 1
