@@ -8,9 +8,19 @@ them at each other: junk lines, Blockquakes, Block Bombs and the infamous
 Switch Fields. Host on your network and the game simply appears on everyone's
 menu, no setup at all. Or take on the bots, if you dare face Dvorak on brutal.
 
+## Play
+
+With [av](https://asciiverse.sh), the Asciiverse client:
+
 ```
-cargo run --release
+av install tetrix
+av play tetrix
 ```
+
+Or download the archive for your system from this repository's Releases,
+unpack it and run `./tetrix` (`tetrix.exe` on Windows).
+
+To build it yourself: `cargo run --release`.
 
 Two ways to play, from the menu:
 
