@@ -1,8 +1,12 @@
 # Tetrix
 
-TetriNET for the terminal: multiplayer Tetris for up to six players, with the classic
-special blocks you collect by clearing lines and fire at each other. Part of the
-[Asciiverse](https://github.com/theasciiverse) catalog.
+**SIX FIELDS. NINE DIRTY TRICKS. ONE SURVIVOR.**
+
+The late-90s LAN-party block buster legend TetriNET, reborn in your terminal! Up to six
+players drop blocks side by side, clear lines to collect specials, and fire
+them at each other: junk lines, Blockquakes, Block Bombs and the infamous
+Switch Fields. Host on your network and the game simply appears on everyone's
+menu, no setup at all. Or take on the bots, if you dare face Dvorak on brutal.
 
 ```
 cargo run --release
