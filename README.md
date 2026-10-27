@@ -12,12 +12,11 @@ menu, no setup at all. Or take on the bots, if you dare face Dvorak on brutal.
 cargo run --release
 ```
 
-The menu offers three ways to play:
+Two ways to play, from the menu:
 
 - **Play solo** against up to five bots (four skill levels).
 - **Host a game.** Anyone on the same network picks **Join a game** and sees it listed.
   No addresses to type, and no internet needed. Bots can fill empty seats.
-- **Join a game** across networks with `tetrix --join <id>` (the host's lobby shows the id).
 
 Needs a terminal of at least 92x28; bigger terminals get bigger boards.
 
