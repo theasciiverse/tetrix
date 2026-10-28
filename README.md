@@ -69,3 +69,8 @@ Session log for bug reports: `RUST_LOG=debug tetrix 2>tetrix.log`
 
 Rules follow St0rmCat's TetriNET 1.13. The piece rotation table and core rules are ported
 from Andrew Church's public-domain tetrinet 0.11. Networking uses [iroh](https://iroh.computer).
+
+## Licence
+
+GNU General Public License, version 2 or (at your option) any later
+version; see [LICENSE](LICENSE).
