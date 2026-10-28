@@ -234,10 +234,7 @@ three simulated machines that must stay cell-for-cell in sync.
 Not built yet: partyline/chat, teams, Dr Mario / Puyo Puyo modes, sudden death, WAN game
 browsing (only direct `--join <id>` across networks).
 
-Next steps, in order:
-1. Two physical machines on a real LAN (and a Wi-Fi network that may block broadcast)
-2. Partyline lobby chat + in-game chat (`t`), teams
-3. Sudden death (jetrix: after 600 s, add a line every 10 s)
+Version 0.6.0 (2026-10-28). What comes next, release by release, is in `ROADMAP.md`.
 
 Name confirmed: Tetrix. Conceived 2026-07-02, scout camp.
 Multiplayer infrastructure built here powers future Asciiverse titles.
