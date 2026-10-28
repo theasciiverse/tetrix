@@ -147,16 +147,6 @@ Global server: hosted by Asciiverse, persistent leaderboards, matchmaking.
 - [ ] Mixed-mode attack translation — how does a Puyo Puyo chain attack affect a
       Tetrix opponent's board mechanically? Needs its own design pass.
 
-## Catalog position
-
-Tetrix is the social/party game in the catalog. Every other title is solo or
-strategic — Tetrix is the one you play with five friends at a LAN party and someone
-spills a drink. It fills an emotional niche nothing else in the catalog occupies.
-
-The embedded server + LAN autodiscovery is also the feature that makes Asciiverse
-feel alive at events. Set up a terminal, run `tetrix --host`, and six people are
-playing in under a minute. That moment is marketing.
-
 ## Prior art (reviewed 2026-10-03)
 
 Archives in `../../references/tetrinet/` (note: `references/`, plural, not the `reference/`
